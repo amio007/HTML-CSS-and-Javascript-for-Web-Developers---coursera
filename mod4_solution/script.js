@@ -3,20 +3,20 @@ Solution of Module 4:
 
 Expected output:
 
-Good Bye Jax
-Good Bye Jhin
-Hello trump
-Hello boris
-Good Bye joe
 Hello Yaakov
+Good Bye John
+Good Bye Jen
+Good Bye Jason
+Hello Paul
+Hello Frank
 Hello Larry
-Hello annie
-Hello Zed
-Good Bye Justin
+Hello Paula
+Hello Laura
+Good Bye Jim
 */
 
 (function() {
-    var names = ["Jax", "Jhin", "trump", "boris", "joe", "Yaakov", "Larry", "annie", "Zed", "Justin"];
+    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
     for (var i = 0; i < names.length; i++) {
         var firstLetter = names[i].charAt(0).toLowerCase();
         if (firstLetter === 'j') {
